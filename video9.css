@@ -1,0 +1,23 @@
+h1 {
+    color: white;
+    background-color: black;
+    width: fit-content;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    width: fit-content;
+}
+
+.c1 {
+    color: rgb(60, 60, 233);
+    background-color: rgb(200, 163, 114);
+    width: fit-content;
+}
+
+#i1 {
+    color: rgb(100, 100, 185);
+    background-color: blanchedalmond;
+    width: fit-content;
+}
