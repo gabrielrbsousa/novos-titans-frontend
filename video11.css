@@ -1,0 +1,59 @@
+.buttons {
+    width: 230px;
+    border: 1px solid;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.default-button {
+    width: 230px;
+    height: 30px;
+    background: rgb(185, 185, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New';
+    font-size: small;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0.5px solid;
+}
+
+.male-button:hover {
+    background-color: #4a90e2;
+    transition: 1s;
+    border: 0.1px solid;
+    width: 235px;
+    height: 35px;
+    transition: background-color 1s, width 0.3s, height 0.3s;
+}
+
+.female-button:hover {
+    background-color: #9B59B6;
+    border: 0.1px solid;
+    width: 235px;
+    height: 35px;
+    transition: background-color 1s, width 0.3s, height 0.3s;
+}
+
+.nonbinary-button:hover {
+    background-color: #1ABC9C;
+    transition: 1s;
+    border: 0.1px solid;
+    width: 235px;
+    height: 35px;
+    transition: background-color 1s, width 0.3s, height 0.3s;
+
+}
+
+.null-button:hover {
+    background-color: #95A5A6;
+    transition: 1s;
+    border: 0.1px solid;
+    width: 235px;
+    height: 35px;
+    transition: background-color 1s, width 0.3s, height 0.3s;
+}

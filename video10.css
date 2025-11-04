@@ -1,0 +1,28 @@
+/* o root serve pra criar um estilo padrão no css*/
+:root {
+    --maincolor: rgba(255, 255, 255, 0.5);
+    --mainbgcolor: rgb(200, 255, 200); 
+}
+
+.question {
+    background-color: var(--mainbgcolor);
+}
+
+.buttons {
+   margin-top: 10px;
+   display: flex;
+   gap: 10px; 
+}
+
+.return-button {
+    color: var(--maincolor);
+    background-color: grey;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+    .continue-button {
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
