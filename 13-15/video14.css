@@ -1,0 +1,33 @@
+.header-div {
+    background-color: rgb(255, 191, 106);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-button {
+    width: 75px;
+    height: 25px;
+    border: 2px solid;
+    align-items: center;
+    display: inline-block;
+    align-content: center;
+}
+
+.right-button {
+    width: 75px;
+    height: 25px;
+    border: 2px solid;
+    align-items: center;
+    display: inline-block;
+    align-content: center;
+}
+
+.hyperlink {
+    margin-top: 10px;
+    background-color: rgb(255, 191, 106);
+    color: black;
+    display: inline-block;
+}
