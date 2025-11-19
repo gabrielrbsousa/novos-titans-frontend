@@ -11,18 +11,19 @@
     width: 75px;
     height: 25px;
     border: 2px solid;
-    align-items: center;
     display: inline-block;
+    /* text-align centraliza na largura */
     align-content: center;
+    text-align: center;
 }
 
 .right-button {
     width: 75px;
     height: 25px;
     border: 2px solid;
-    align-items: center;
     display: inline-block;
     align-content: center;
+    text-align: center;
 }
 
 .hyperlink {
